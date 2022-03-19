@@ -45,10 +45,10 @@
   <div id="box">
     <h2>ADA HANDLE LURKER</h2>
     <p>ADA HANDLE</p>
-    <input id='policyID' type="text"></input>
-  
+    <input id='policyID' type="text">  </input>
+    <button class="btn" type="button" onclick='redirect();'>Lurk</button>
 
-    <button class="btn" type="button" onclick='redirect();'>Open</button>
+
   </div>
   <script>
     let host = "https://pool.pm/";
