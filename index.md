@@ -1,8 +1,5 @@
-```{=html}
 <center>
-```
-```{=html}
-<style>
+  <style>
     * {
       font-family: consolas;
       padding: 0;
@@ -45,16 +42,15 @@
       border: 1px black solid;
     }
   </style>
-```
-::: {#box}
+  <div id="box">
     <h2>ADA HANDLE LURKER</h2>
     <p>ADA HANDLE</p>
     <input id='policyID' type="text">  </input>
     <button class="btn" type="button" onclick='redirect();'>Lurk</button>
-:::
 
-```{=html}
-<script>
+
+  </div>
+  <script>
     let host = "https://pool.pm/";
     function redirect() {
       let policyID = document.getElementById("policyID").value;
@@ -62,7 +58,4 @@
       window.open(URL);
     }
   </script>
-```
-```{=html}
 </center>
-```
